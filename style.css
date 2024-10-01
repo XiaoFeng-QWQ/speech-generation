@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.container {
+    padding-top: 70px;
+}
+
+#ModelList,
+#product {
+    max-height: 338px;
+    overflow-y: auto;
+}
+
+.model-item.active {
+    background-color: #007bff;
+    color: white;
+}
+
+#CompleteButton:disabled {
+    background-color: grey;
+}
+
+.active {
+    background-color: #007bff;
+    color: white;
+}
+
+/* 高亮样式 */
+.highlight {
+    border: 2px solid #f39c12;
+    padding: 10px;
+    background-color: #fdf6e3;
+    margin-bottom: 10px;
+}
